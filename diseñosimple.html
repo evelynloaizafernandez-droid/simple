@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IA para Estudiantes</title>
+
+    <style>
+        /* Estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f9ff;
+            color: #1f2937;
+        }
+
+        /* Menú */
+        header {
+            background-color: #2563eb;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Página principal */
+        .inicio {
+            min-height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .contenido {
+            max-width: 700px;
+        }
+
+        .icono {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #1d4ed8;
+            margin-bottom: 20px;
+        }
+
+        .descripcion {
+            font-size: 20px;
+            line-height: 1.6;
+            color: #4b5563;
+            margin-bottom: 30px;
+        }
+
+        /* Botón */
+        .boton {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 14px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .boton:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Adaptación para celulares */
+        @media (max-width: 600px) {
+
+            header {
+                padding: 20px;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            .descripcion {
+                font-size: 17px;
+            }
+
+            .icono {
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header>
+
+        <div class="logo">
+            🤖 IA Estudiantes
+        </div>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">¿Qué es IA?</a>
+            <a href="#">Recursos</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Contenido principal -->
+    <main class="inicio">
+
+        <div class="contenido">
+
+            <div class="icono">
+                🤖
+            </div>
+
+            <h1>
+                Inteligencia Artificial para Estudiantes
+            </h1>
+
+            <p class="descripcion">
+                Descubre cómo la inteligencia artificial puede ayudarte
+                a aprender, estudiar, investigar y desarrollar nuevas
+                habilidades de una manera fácil y responsable.
+            </p>
+
+            <a href="#" class="boton">
+                Comenzar
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <!-- Pie de página -->
+    <footer>
+
+        <p>
+            © 2026 IA Estudiantes
+        </p>
+
+    </footer>
+
+</body>
+</html>
